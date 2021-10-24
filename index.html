@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NLW/Heat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="background">
+        <div class="range"></div>
+        <div class="break"></div>
+      </div>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Selo da Rocketseat" />
+          </span>
+          <img id="userPhoto" src="" alt="Foto pessoal" />
+        </div>
+        <h1 id="userName">Danilo Santos</h1>
+        <a id="userLink" href="https://github.com/DaniloSreis" target="_blank"
+          ><img src="images/github.svg" alt="ícone do github" /><span
+            id="userLogin"
+            >DaniloSreis</span
+          ></a
+        >
+        <p id="userBio">
+          An instructor focused on helping pople start programming for web
+        </p>
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com.br" target="_blank"
+              ><img src="images/youtube.svg" alt="ícone do youtube"
+            /></a>
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/" target="_blank"
+              ><img src="images/instagram.svg" alt="ícone do instagram"
+            /></a>
+          </li>
+          <li class="facebook">
+            <a href="https://facebook.com/" target="_blank"
+              ><img src="images/facebook.svg" alt="ícone do facebook"
+            /></a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="images/twitter.svg" alt="ícone do twitter"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="animacao.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector('main'), {
+        max: 7,
+        speed: 300
+      })
+    </script>
+  </body>
+</html>
